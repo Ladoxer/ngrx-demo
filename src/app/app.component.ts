@@ -3,9 +3,10 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   template: `
-    hello..
-    <app-counter></app-counter>
-    <router-outlet></router-outlet>
+    <app-top-nav></app-top-nav>
+    <div class="container">
+      <router-outlet></router-outlet>
+    </div>
     
   `,
   styles: []
