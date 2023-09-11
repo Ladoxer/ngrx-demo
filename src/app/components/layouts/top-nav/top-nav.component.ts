@@ -28,6 +28,9 @@ import { Component } from "@angular/core";
             <li class="nav-item">
               <a class="nav-link" routerLinkActive="active" routerLink="/products" aria-current="page" >Products</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLinkActive="active" routerLink="/users" aria-current="page" >Users</a>
+            </li>
             
             
           </ul>
